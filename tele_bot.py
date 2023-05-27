@@ -59,7 +59,7 @@ def what_weather(city):
     try:
         querystring = {"q": f"{city}", "days": "1"}
         headers = {
-            "X-RapidAPI-Key": "a15a7e959cmsh7fc7c4400cf946cp167646jsn7f3812b1db78",
+            "X-RapidAPI-Key": f"{KEY}",
             "X-RapidAPI-Host": "weatherapi-com.p.rapidapi.com"
         }
         response = requests.get(URL_WEATHER, headers=headers, params=querystring)
