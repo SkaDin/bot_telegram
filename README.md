@@ -14,9 +14,6 @@
 ```
 git@github.com:SkaDin/bot_telegram.git
 ```
-```
-cd bs4_parser_pep
-```
 ### 2. Создать и активировать виртуальное окружение:
 ```commandline
 pytnon -m venv venv
